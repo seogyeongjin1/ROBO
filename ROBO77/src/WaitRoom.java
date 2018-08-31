@@ -17,7 +17,7 @@ public class WaitRoom extends JPanel implements ActionListener{
     {
        
        setLayout(null);
-       back=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\2.png");
+       back=Toolkit.getDefaultToolkit().getImage("Image\\2.png");
        la1=new JLabel("방개설 정보");
        la2=new JLabel("채팅방");
        la3=new JLabel("접속자 정보");
@@ -39,8 +39,8 @@ public class WaitRoom extends JPanel implements ActionListener{
        p6=new JPanel();
        p6.setOpaque(false);
 
-       b7=new JButton("방만들기");
-       b8=new JButton("게임종료");
+       b7=new JButton(new ImageIcon(""));
+       b8=new JButton(new ImageIcon("Image\\wait_exit.png"));
 
        
        //table
@@ -168,7 +168,10 @@ public class WaitRoom extends JPanel implements ActionListener{
          b7.setOpaque(true);
         // b7.setLayout(null);
          b8.setOpaque(true);
-         //b8.setLayout(null);
+         b8.setBorderPainted(false);
+         b8.setFocusPainted(false);
+         b8.setContentAreaFilled(false);
+         
          add(b7);
          add(b8);
          b7.setBounds(1060, 710, 220, 100);

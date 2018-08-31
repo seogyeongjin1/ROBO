@@ -15,7 +15,7 @@ public class GameRoom extends JPanel implements ActionListener {
 	GameRoom()
 	{
 		setLayout(null);
-		back1=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\3.png");
+		back1=Toolkit.getDefaultToolkit().getImage("Image\\3.png");
 		// 초기값
 		b1=new JButton("게임준비");
 		b2=new JButton("게임시작");

@@ -7,7 +7,7 @@ public class MainView extends JPanel{
    JPasswordField pf;
    JButton b1,b2;
    MainView() {
-       back=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\login.png");
+       back=Toolkit.getDefaultToolkit().getImage("Image\\login.png");
        // 배치위치
        la1=new JLabel("아이디");
        la2=new JLabel("비밀번호");
@@ -15,8 +15,8 @@ public class MainView extends JPanel{
        tf=new JTextField();
        pf=new JPasswordField();
        
-       b1 = new JButton(new ImageIcon("C:\\javaDev\\프로젝트그림\\btLogin_hud.png"));
-       b2 = new JButton(new ImageIcon("C:\\javaDev\\프로젝트그림\\btLogin_hud.png"));
+       b1 = new JButton(new ImageIcon("Image\\btLogin_hud.png"));
+       b2 = new JButton(new ImageIcon("Image\\btLogin_hud.png"));
        
        // 배치
        setLayout(null); //배치를 사용하지 않고 직접 배치
