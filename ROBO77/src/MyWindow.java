@@ -13,7 +13,7 @@ import javax.swing.*;
  *      JWindow 
  */
 import java.awt.event.*;
-public class MyWindow extends JFrame implements ActionListener{
+public class MyWindow extends JFrame implements ActionListener, MouseListener{
    MainView mv = new MainView();
    WaitRoom wr = new WaitRoom();
    GameRoom gr = new GameRoom();
@@ -38,12 +38,6 @@ public class MyWindow extends JFrame implements ActionListener{
       setResizable(false);
       
       mv.b1.addActionListener(this); // 화면넘기기 밑에도 있음
-      /*wr.p1.addActionListener(this); 
-      wr.p2.addActionListener(this); */
-      /*wr.b3.addActionListener(this); 
-      wr.b4.addActionListener(this); 
-      wr.b5.addActionListener(this); 
-      wr.b6.addActionListener(this);*/
       gr.b3.addActionListener(this);
       wr.b7.addActionListener(this);
       wr.b8.addActionListener(this);
@@ -67,14 +61,7 @@ public class MyWindow extends JFrame implements ActionListener{
       {
          card.show(getContentPane(), "MF");
       }
-      
-      
-      if(e.getSource()==wr.p1 || e.getSource()==wr.p2 || e.getSource()==wr.p3 || e.getSource()==wr.p4 || e.getSource()==wr.p5 || e.getSource()==wr.p6)                     // 화면넘기기
-      {
-         card.show(getContentPane(), "GR");
-      }
-      
-      
+ 
       if(e.getSource()==gr.b3)                     // 게임룸에서 대기룸으로 이동
       {
          card.show(getContentPane(), "MF");
@@ -95,5 +82,32 @@ public class MyWindow extends JFrame implements ActionListener{
       }
     
    }
-
+   @Override
+   public void mouseClicked(MouseEvent e) 
+   {
+	   if(e.getSource()==wr.p1 || e.getSource()==wr.p2 || e.getSource()==wr.p3 || e.getSource()==wr.p4 || e.getSource()==wr.p5 || e.getSource()==wr.p6)                     // 화면넘기기
+	      {
+	         card.show(getContentPane(), "GR");
+	      }
+   }
+@Override
+public void mousePressed(MouseEvent e) {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void mouseReleased(MouseEvent e) {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void mouseEntered(MouseEvent e) {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void mouseExited(MouseEvent e) {
+	// TODO Auto-generated method stub
+	
+}
 }

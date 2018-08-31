@@ -4,17 +4,17 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.table.*;
-public class GameRoom extends JPanel implements ActionListener {
+public class GameRoom extends JFrame implements ActionListener {
 	JButton b1,b2,b3;
 	JLabel la1,la2,la3,la4,la5;
 	JTextField tf1,tf2,tf3,tf4,tf5;
 	JTextArea ta;
 	JTextField tf;
 	JPanel gp;
-	Image back;
+	Image back1;
 	GameRoom()
 	{
-		back=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\2.jpg");
+		back1=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\3.png");
 		// 초기값
 		b1=new JButton("게임준비");
 		b2=new JButton("게임시작");
@@ -127,7 +127,7 @@ public class GameRoom extends JPanel implements ActionListener {
 	}
 	// 스킨입힐때
 	   protected void paintComponent(Graphics g) {
-	      g.drawImage(back, 0, 0, getWidth(),getHeight(),this);
+	      g.drawImage(back1, 0, 0, getWidth(),getHeight(),this);
 	   }
 	   
 	   public void actionPerformed(ActionEvent e) {
