@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.table.*;
-public class GameRoom extends JFrame implements ActionListener {
+public class GameRoom extends JPanel implements ActionListener {
 	JButton b1,b2,b3;
 	JLabel la1,la2,la3,la4,la5;
 	JTextField tf1,tf2,tf3,tf4,tf5;
@@ -14,6 +14,7 @@ public class GameRoom extends JFrame implements ActionListener {
 	Image back1;
 	GameRoom()
 	{
+		setLayout(null);
 		back1=Toolkit.getDefaultToolkit().getImage("C:\\javaDev\\프로젝트그림\\3.png");
 		// 초기값
 		b1=new JButton("게임준비");
@@ -71,7 +72,7 @@ public class GameRoom extends JFrame implements ActionListener {
 		la5.setBounds(30, 590, 800, 250);
 		tf5.setBounds(40, 800, 170, 30);
 		
-		add(la1);
+		/*add(la1);
 		add(tf1);
 		
 		add(la2);
@@ -84,7 +85,7 @@ public class GameRoom extends JFrame implements ActionListener {
 		add(tf4);
 		
 		add(la5);
-		add(tf5);
+		add(tf5);*/
 		
 		
 		

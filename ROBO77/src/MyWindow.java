@@ -38,6 +38,13 @@ public class MyWindow extends JFrame implements ActionListener, MouseListener{
       setResizable(false);
       
       mv.b1.addActionListener(this); // 화면넘기기 밑에도 있음
+      wr.p1.addMouseListener(this);
+      wr.p2.addMouseListener(this);
+      wr.p3.addMouseListener(this);
+      wr.p4.addMouseListener(this);
+      wr.p5.addMouseListener(this);
+      wr.p6.addMouseListener(this);
+      
       gr.b3.addActionListener(this);
       wr.b7.addActionListener(this);
       wr.b8.addActionListener(this);
