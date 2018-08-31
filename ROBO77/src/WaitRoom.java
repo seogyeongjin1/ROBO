@@ -176,7 +176,7 @@ public class WaitRoom extends JPanel implements ActionListener{
          setSize(1600,900);
        setVisible(true);
       
-       tf2.addActionListener(this);
+       tf.addActionListener(this);
        
        String[] data= {"lobo01","닉네임","대기실"};
          model2.addRow(data);
