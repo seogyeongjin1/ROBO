@@ -105,8 +105,8 @@ public class GameRoom extends JPanel implements ActionListener {
       la2.setBounds(70, 164, 130,30);
       la3.setBounds(70, 213, 130,30);
       
-      gp.setBounds(200, 50, 1200, 700);
-      gp.setOpaque(false);
+      gp.setBounds(410, 90, 780, 460);
+      gp.setOpaque(true);
       
       la4.setBounds(1390, 117, 130, 30);
       tf2.setBounds(1390, 60, 170, 30); 
