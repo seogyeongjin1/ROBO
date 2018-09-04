@@ -2,6 +2,11 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/javaDev/JTattoo-1.6.11.jar"/>
+=======
+	<classpathentry kind="lib" path="C:/Users/user30/git/ROBO/ROBO77/JTattoo-1.6.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/quiz/ROBO77/JTattoo-1.6.11.jar"/>
+>>>>>>> branch 'master' of https://github.com/seogyeongjin1/ROBO.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
