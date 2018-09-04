@@ -67,14 +67,7 @@ public class GameRoom extends JPanel implements ActionListener {
       la15=new JLabel();
       la15.setOpaque(true);
       la15.setBackground(Color.black);
-      po4=new JLabel();
-      po4.setOpaque(true);
-      po4.setBackground(Color.black);
-      po5=new JLabel();
-      po5.setOpaque(true);
-      po5.setBackground(Color.black);
-      
-      
+    
       
       
       
