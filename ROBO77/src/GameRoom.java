@@ -17,9 +17,9 @@ public class GameRoom extends JPanel implements ActionListener {
 		setLayout(null);
 		back1=Toolkit.getDefaultToolkit().getImage("Image\\3.png");
 		// 초기값
-		b1=new JButton("게임준비");
-		b2=new JButton("게임시작");
-		b3=new JButton("나가기"); // 클래스 초기화
+		b1=new JButton(new ImageIcon("Image\\ready.png"));
+		b2=new JButton(new ImageIcon("Image\\start.png"));
+		b3=new JButton(new ImageIcon("Image\\wait_exit2.png")); // 클래스 초기화
 		
 		la1=new JLabel();
 		la1.setOpaque(true);
@@ -102,7 +102,7 @@ public class GameRoom extends JPanel implements ActionListener {
 		p.add(b2);
 		p.add(b3);
 		
-		p.setBounds(1270, 15, 300, 25);
+		p.setBounds(1270, 15, 300, 40);
 		add(p);
 		
 		

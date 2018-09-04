@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Image/wait_exit.png</name>
-			<type>1</type>
-			<locationURI>PARENT-5-PROJECT_LOC/javaDev/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B7%B8%EB%A6%BC/wait_exit.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

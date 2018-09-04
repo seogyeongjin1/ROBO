@@ -166,6 +166,9 @@ public class WaitRoom extends JPanel implements ActionListener{
        add(p);
        
          b7.setOpaque(true);
+         b7.setBorderPainted(false);
+         b7.setFocusPainted(false);
+         b7.setContentAreaFilled(false);
         // b7.setLayout(null);
          b8.setOpaque(true);
          b8.setBorderPainted(false);
