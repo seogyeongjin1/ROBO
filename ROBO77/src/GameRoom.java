@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.table.*;
 public class GameRoom extends JPanel implements ActionListener {
    JButton b1,b2,b3;
-   JLabel la1,la2,la3,la4,la5,la6,la7,la8,la9,la10,la11,la12,la13,la14,la15;
+   JLabel la1,la2,la3,la4,la5,la6,la7,la8,la9,la10,la11,la12,la13,la14,la15,po1,po2,po3,po4,po5;
    JTextField tf1,tf2,tf3,tf4,tf5;
    JTextArea ta;
    JTextField tf;
