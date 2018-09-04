@@ -142,10 +142,10 @@ public class WaitRoom extends JPanel implements ActionListener{
        add(law2);
        
        
-       latitle1.setBounds( 275, 100, 250, 40);
+       latitle1.setBounds( 275, 95, 250, 40);
        latitle1.setForeground(Color.black);
        latitle1.setOpaque(false);
-       latitle1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+       //latitle1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
        add(latitle1);
        
        
