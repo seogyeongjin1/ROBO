@@ -49,6 +49,7 @@ public class MyWindow extends JFrame implements ActionListener, MouseListener{
       wr.b7.addActionListener(this);
       wr.b8.addActionListener(this);
     //  rm.b7.addActionListener(this);
+      setDefaultCloseOperation(EXIT_ON_CLOSE);
       
       
    }

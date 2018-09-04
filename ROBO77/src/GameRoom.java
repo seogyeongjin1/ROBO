@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.table.*;
 public class GameRoom extends JPanel implements ActionListener {
    JButton b1,b2,b3;
-   JLabel la1,la2,la3,la4,la5,la6,la7,la8,la9,la10,la11,la12,la13,la14,la15;
+   JLabel la1,la2,la3,la4,la5,la6,la7,la8,la9,la10,la11,la12,la13,la14,la15,po1,po2,po3,po4,po5;
    JTextField tf1,tf2,tf3,tf4,tf5;
    JTextArea ta;
    JTextField tf;
@@ -65,8 +65,21 @@ public class GameRoom extends JPanel implements ActionListener {
       la15=new JLabel();
       la15.setOpaque(true);
       la15.setBackground(Color.black);
-      
-      
+      po1=new JLabel();
+      po1.setOpaque(true);
+      po1.setBackground(Color.black);
+      po2=new JLabel();
+      po2.setOpaque(true);
+      po2.setBackground(Color.black);
+      po3=new JLabel();
+      po3.setOpaque(true);
+      po3.setBackground(Color.black);
+      po4=new JLabel();
+      po4.setOpaque(true);
+      po4.setBackground(Color.black);
+      po5=new JLabel();
+      po5.setOpaque(true);
+      po5.setBackground(Color.black);
       
       
       tf1=new JTextField();
@@ -113,6 +126,12 @@ public class GameRoom extends JPanel implements ActionListener {
       la14.setBounds(70, 639, 130, 30);
       la15.setBounds(70, 689, 130, 30);
       
+      po1.setBounds(230,90,150,150);
+      po2.setBounds(1222,94,150,150);
+      po3.setBounds(233,324,150,150);  
+      po4.setBounds(1222,323,150,150);
+      po5.setBounds(232,565,150,150);
+      
       add(la1);
       //add(tf1);
       
@@ -141,7 +160,11 @@ public class GameRoom extends JPanel implements ActionListener {
       add(la14);
       add(la15);
       
-      
+      add(po1);
+      add(po2);
+      add(po3);
+      add(po4);
+      add(po5);
       
       js.setBounds(850, 590, 720, 210); // √§∆√√¢
       add(js);
