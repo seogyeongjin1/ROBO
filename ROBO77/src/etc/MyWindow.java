@@ -1,3 +1,4 @@
+package etc;
 // À©µµ¿ì
 import java.awt.CardLayout;
 

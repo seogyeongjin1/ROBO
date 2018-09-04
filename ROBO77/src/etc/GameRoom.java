@@ -1,3 +1,4 @@
+package etc;
 import javax.swing.*; // J~
 import java.awt.*; // Color,Layout
 import java.awt.event.ActionEvent;
@@ -16,12 +17,12 @@ public class GameRoom extends JPanel implements ActionListener {
    {
       back=Toolkit.getDefaultToolkit().getImage("Image\\3.png");
       // 초기값
-   		b1=new JButton(new ImageIcon("Image\\ready.png"));
-   		b2=new JButton(new ImageIcon("Image\\start.png"));
-   		b3=new JButton(new ImageIcon("Image\\wait_exit2.png")); // 클래스 초기화
+         b1=new JButton(new ImageIcon("Image\\ready.png"));
+         b2=new JButton(new ImageIcon("Image\\start.png"));
+         b3=new JButton(new ImageIcon("Image\\wait_exit2.png")); // 클래스 초기화
       
-   	  	
-   		
+           
+         
       la1=new JLabel();
       la1.setOpaque(true);
       la1.setBackground(Color.black);
@@ -223,5 +224,5 @@ public class GameRoom extends JPanel implements ActionListener {
       }
 
 }
-		
-		
+      
+      
