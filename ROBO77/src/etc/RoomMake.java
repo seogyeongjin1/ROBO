@@ -1,3 +1,4 @@
+package etc;
 import javax.swing.*;
 import java.awt.*; // Image
 import java.awt.event.ActionListener;
