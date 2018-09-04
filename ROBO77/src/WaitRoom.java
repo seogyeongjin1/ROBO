@@ -39,7 +39,7 @@ public class WaitRoom extends JPanel implements ActionListener{
        p6=new JPanel();
        p6.setOpaque(false);
 
-       b7=new JButton(new ImageIcon(""));
+       b7=new JButton(new ImageIcon("Image\\roommake.jpg"));
        b8=new JButton(new ImageIcon("Image\\wait_exit.png"));
 
        
